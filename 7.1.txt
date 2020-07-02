@@ -1,0 +1,59 @@
+using System;
+using System.Collections.Generic;
+namespace calc2
+{
+    class Program
+    {
+        class calc2
+        {
+            static void Summ()
+            {
+                int x = 55;
+                int y = 155;
+                int res = x + y;
+                Console.WriteLine("Сумма " + res);
+            }
+            static void Minus()
+            {
+                int x = 100;
+                int y = 17;
+                int res = x - y;
+                Console.WriteLine("Разность " + res);
+            }
+            static void Multiply()
+            {
+                int x = 5;
+                int y = 5;
+                int res = x * y;
+                Console.WriteLine("Умножение " + res);
+            }
+            static void Divide()
+            {
+                double x = 15;
+                double y = 3;
+                double res = x / y;
+                Console.WriteLine("Деление " + res);
+            }
+            static void Stepen()
+            {
+                double x = 9;
+                double y = 2;
+                double res = Math.Pow(x, y);
+                Console.WriteLine("Степень " + res);
+            }
+            static void Kvadrat()
+            {
+                double x = 15;
+                double res = Math.Sqrt(x);
+                Console.WriteLine("Квадрат " + res);
+            }
+
+        }
+
+        static void Main(string[] args)
+        {
+
+
+        }
+    }
+}
